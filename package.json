@@ -1,0 +1,22 @@
+{
+  "name": "node_http",
+  "version": "1.0.0",
+  "description": "Exercise:\r Objective\r Create a server that responds to requests\r The server should have at least ‘/echo’, ‘/’, and ‘/about’ endpoints\r The server will account for ‘not found’ endpoints\r The ‘/echo’ endpoint will use the ReadStream response object to read the request body, and return the request body as the response body to the client\r The ‘/’ endpoint will respond as you wish\r The ‘/about’ endpoint will return a JSON response with information about yourself",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAnderwald/node_HTTP.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "type": "module",
+  
+  "bugs": {
+    "url": "https://github.com/AAnderwald/node_HTTP/issues"
+  },
+  "homepage": "https://github.com/AAnderwald/node_HTTP#readme"
+}
